@@ -15,8 +15,9 @@ public class MainActivity extends Activity {
 	private Button barBtn;
 	private static final int MESSAGE_REQUEST = 1;
 	private static final int CHOOSE_LOCATION = 1;
-	private Button addLocationBtn;
+	private Button addEventBtn;
 	private Button killDBBtn;
+	private Button addLocationBtn;
 	
 	final CharSequence[] items = {"party","chillen"};
 	@Override
@@ -34,12 +35,22 @@ public class MainActivity extends Activity {
 			}
 		});
         
+        addEventBtn = (Button) this.findViewById(R.id.add_event_btn);
+        addEventBtn.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, CreateEvent.class);
+				startActivityForResult(intent, MESSAGE_REQUEST);		
+			}
+		});
+        
         addLocationBtn = (Button) this.findViewById(R.id.add_location_btn);
         addLocationBtn.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(MainActivity.this, CreateEvent.class);
+				Intent intent = new Intent(MainActivity.this, CreateLocationActivity.class);
 				startActivityForResult(intent, MESSAGE_REQUEST);		
 			}
 		});

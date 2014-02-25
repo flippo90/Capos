@@ -224,22 +224,25 @@ containing a value of this type.
         public static final int sonstiges=0x7f02001f;
     }
     public static final class id {
-        public static final int action_settings=0x7f05001c;
-        public static final int add_location_btn=0x7f050015;
+        public static final int action_settings=0x7f05001f;
+        public static final int add_event_btn=0x7f05001a;
+        public static final int add_location_btn=0x7f05001c;
         public static final int adresse_tv=0x7f05000c;
-        public static final int bar_btn=0x7f050014;
-        public static final int button1=0x7f050013;
+        public static final int autoCompleteTextView1=0x7f05000f;
+        public static final int bar_btn=0x7f050016;
         public static final int club_btn=0x7f050019;
-        public static final int create_btn=0x7f05000d;
-        public static final int finished=0x7f05001b;
+        public static final int createLocation_btn=0x7f050015;
+        public static final int create_location_btn=0x7f05000d;
+        public static final int finished=0x7f05001e;
         public static final int hybrid=0x7f050004;
-        public static final int killdb_btn=0x7f050016;
-        public static final int map=0x7f05001a;
+        public static final int killdb_btn=0x7f05001b;
+        public static final int map=0x7f05001d;
+        public static final int name_et=0x7f05000e;
         public static final int name_location_tv=0x7f050006;
         public static final int name_tv=0x7f050008;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
-        public static final int ratingBar1=0x7f050011;
+        public static final int ratingBar1=0x7f050013;
         public static final int restaurant_btn=0x7f050017;
         public static final int satellite=0x7f050002;
         public static final int sonstiges_btn=0x7f050018;
@@ -249,20 +252,22 @@ containing a value of this type.
         public static final int textView2=0x7f050007;
         public static final int textView3=0x7f05000b;
         public static final int textView4=0x7f050009;
-        public static final int textView5=0x7f05000e;
-        public static final int textView6=0x7f05000f;
-        public static final int textView7=0x7f050010;
-        public static final int textView8=0x7f050012;
+        public static final int textView5=0x7f050010;
+        public static final int textView6=0x7f050011;
+        public static final int textView7=0x7f050012;
+        public static final int textView8=0x7f050014;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
         public static final int activity_create_event=0x7f030000;
-        public static final int activity_event_details=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int acvitiy_maps=0x7f030003;
-        public static final int myform=0x7f030004;
+        public static final int activity_create_location=0x7f030001;
+        public static final int activity_event_details=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int acvitiy_maps=0x7f030004;
+        public static final int list_item=0x7f030005;
+        public static final int myform=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
@@ -365,6 +370,8 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f060013;
         public static final int hello_world=0x7f06001c;
+        public static final int menu_settings=0x7f06001d;
+        public static final int str_atv_places=0x7f06001e;
     }
     public static final class style {
         /** 

@@ -18,24 +18,6 @@
         android:text="Bar" />
 
     <Button
-        android:id="@+id/add_location_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/bar_btn"
-        android:layout_alignParentBottom="true"
-        android:text="add Location" />
-
-    <Button
-        android:id="@+id/killdb_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/add_location_btn"
-        android:layout_alignBottom="@+id/add_location_btn"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="44dp"
-        android:text="kill db" />
-
-    <Button
         android:id="@+id/restaurant_btn"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -63,5 +45,31 @@
         android:layout_alignRight="@+id/sonstiges_btn"
         android:background="@drawable/ic_launcher"
         android:text="Club" />
+
+    <Button
+        android:id="@+id/add_event_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:text="add event" />
+
+    <Button
+        android:id="@+id/killdb_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_event_btn"
+        android:layout_alignBottom="@+id/add_event_btn"
+        android:layout_alignRight="@+id/sonstiges_btn"
+        android:text="kill db" />
+
+    <Button
+        android:id="@+id/add_location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add_event_btn"
+        android:layout_alignLeft="@+id/restaurant_btn"
+        android:text="add Location" />
 
 </RelativeLayout>

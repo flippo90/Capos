@@ -25,14 +25,14 @@ public class CreateEvent extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_create_event);
 		
-		createBtn = (Button)this.findViewById(R.id.create_btn);
+		createBtn = (Button)this.findViewById(R.id.create_location_btn);
 		createBtn.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				createDbEntry();
 				finish();
-			}			
+			}
 		});
 		nameText = (EditText)this.findViewById(R.id.name_tv);
 		specialsText = (EditText)this.findViewById(R.id.specials_tv);

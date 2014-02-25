@@ -51,7 +51,8 @@
         
         <activity android:name="com.example.capos.MyOtherActivity"/>
         <activity android:name="com.example.capos.MapsActivity"/>
-        <activity android:name="com.example.capos.CreateEvent"/>    
+        <activity android:name="com.example.capos.CreateEvent"/>  
+        <activity android:name="com.example.capos.CreateLocationActivity"/>     
     </application>
 
 </manifest>
